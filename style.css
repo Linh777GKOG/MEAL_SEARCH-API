@@ -173,6 +173,20 @@ body {
   opacity: 0.9;
 }
 
+.recipe-title {
+  letter-spacing: 1px;
+  padding-bottom: 1rem;
+}
+
+.recipe-category {
+  background: #fff;
+  font-weight: 600;
+  color: var(--tenne-tawny);
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.3rem;
+
+}
 /* Media Queries */
 @media screen and (min-width: 600px) {
   .meal-search-box {
